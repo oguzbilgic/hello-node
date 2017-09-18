@@ -1,6 +1,6 @@
 import http from 'http';
 
-const port = 3000;
+const port = process.env.PORT || 8080;
 
 const requestHandler = (request, response) => {
   console.log(request.url)
