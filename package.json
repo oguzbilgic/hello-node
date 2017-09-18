@@ -1,0 +1,11 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  },
+  "engines": {
+    "node": "8.5.x"
+  }
+}
